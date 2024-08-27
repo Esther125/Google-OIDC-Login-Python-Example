@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "sharing-keycloak-oidc-python"
+version = "0.1.0"
+description = ""
+authors = ["Esther911205 <esther.li@mile.cloud>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+uvicorn = "^0.30.6"
+fastapi = "^0.112.2"
+jinja2 = "^3.1.4"
+google-auth = "^2.34.0"
+google-auth-oauthlib = "^1.2.1"
+requests = "^2.32.3"
+itsdangerous = "^2.2.0"
+ruff = "^0.6.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
